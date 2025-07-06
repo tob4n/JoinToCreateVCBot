@@ -9,7 +9,7 @@ Simple Discord bot enabling join-to-create voice channels.
 2. The user is given customization permissions for that channel.
 3. The user is moved into the new temporary channel.
 
-##### When a user leaves a designated "Join to Create" channel:
+##### When a user leaves a designated temporary channel:
 1. If the channel is now empty, it's deleted.
 2. Otherwise, if they were the owner, a new user will inherit channel customization permissions.
 
